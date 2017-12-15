@@ -296,6 +296,10 @@ ul.contact {
   .content {
     text-align: center;
   }
+  
+  .lightbox img {
+    margin-top: 4em;
+  }
 }
 
 @media only screen and (max-width: 25em) {
