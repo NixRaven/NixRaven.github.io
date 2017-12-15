@@ -1,18 +1,18 @@
 /* This is the style sheet for the Shae Lynch portfolio site.  The site is pretty simple so it only has the one style sheet for all of its stuff so this is a pretty long file. */
 
 body {
-  margin: 0px; 
+  margin: 0rem; 
   font-family: arial;  
 }
 
 .translate {
   position: fixed;
-  margin-left: -30px;
+  margin-left: -2rem;
   left: 100%;
-  top: 0px;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  top: 0rem;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
   text-align: center;
   background-color: rgb(185,185,185);
   cursor: pointer;
@@ -28,57 +28,56 @@ div.translate:hover {
   font-family: sans-serif;
   font-style: italic;
   text-decoration: underline;
-  margin: 0px;
+  margin: 0rem;
 }
 
 /* header stuff */
 
 .header {
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0rem;
+  left: 0rem;
   background-color: rgb(210,210,210);
-  height: 90px;
-  border-bottom: 5px solid rgb(185,185,185);
+  height: 6rem;
+  border-bottom: 0.4rem solid rgb(185,185,185);
   width: 100%;
   display: table;
 }
 
 .header ul {
   display: inline-block;
-  margin: 0px;
+  margin: 0rem;
 }
 
 .header li {
   display: inline-block;
-  margin: 0px;
+  margin: 0rem;
 }
 
 .icon h1 {
   display: inline-block;
-  padding-bottom: 8px;
-  padding-right: 18px;
-  padding-left: 18px;
-  padding-top: 8px;
-  border: 3px solid black;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  border: 0.25rem solid black;
   cursor: default;
 }
 
 ul.navbar {
-  height: 60px;
+  height: 4rem;
   list-style: none;
   display: inline-block;
-  margin: 0px;
+  margin: 0rem;
 }
 
 .navbar li {
   display: inline-block;
   list-style: none;
-  width: 80px;
-  line-height: 50px;
-  margin: 0px;
+  width: 5rem;
+  line-height: 3.5rem;
+  margin: 0rem;
   text-align: center;
-  font-weight: 5;
 }
 
 .navbar li:hover {
@@ -93,16 +92,16 @@ ul.navbar {
 /* intro section.  The first real element after the header. Present in all pages !Note this includes the compensation for the header so that it doesn't cut off the rest of the page */
 
 .intro {
-  min-height: 50px;
+  min-height: 3.5rem;
   border-bottom: 2px solid rgb(220,220,220);
   text-align: center;
-  margin-top: 140px;
+  margin-top: 8rem;
 }
 
 h2 {
-  font-size: 1em;
-  margin-top: 1.33em;
-  margin-bottom: 1.33em;
+  font-size: 1rem;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
 }
 
 /* Content section.  Only used for text based pages.  Most of this site is galleries so this is only used for the about page */
@@ -113,12 +112,12 @@ h2 {
   border: 1px solid black;
   display: inline-block;
   float: left;
-  margin: 10px;
-  margin-right: 1.5em;
+  margin: 0.66rem;
+  margin-right: 1.5rem;
 }
 
 .content {
-  margin: 10px;
+  margin: 0.66rem;
   min-height: 45%;
 }
 
@@ -129,38 +128,38 @@ h2 {
 .content-contact {
   text-align: center;
   width: 100%;
-  padding: 10px;
+  padding: 0.66rem;
 }
 
 .contact-btn {
-  height: 30px;
-  width: 180px;
-  line-height: 30px;
+  height: 2rem;
+  width: 11rem;
+  line-height: 2rem;
   text-align: center;
   background-color: rgb(185,185,185);
-  border: 1px solid rgb(155,155,155);
-  border-radius: 5px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 30px;
-  padding-left: 30px;
+  border: 0.25rem solid rgb(155,155,155);
+  border-radius: 0.33rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
   color: black;
   text-decoration: none;
 }
 
 .contact-btn:hover {
   background-color: rgb(155,155,155);
-  border: 1px solid rgb(185,185,185);
+  border: 0.25rem solid rgb(185,185,185);
 }
 
 /* Gallery section.  The majority of most pages is galleries so this is important */
 
 .gallery {
-  border-top: 2px solid rgb(220,220,220);
-  border-bottom: 2px solid rgb(220,220,220);
+  border-top: 0.25rem solid rgb(220,220,220);
+  border-bottom: 0.25rem solid rgb(220,220,220);
   background-color: rgb(230,230,230);
-  padding: 10px;
-  margin: 0px;
+  padding: 0.66rem;
+  margin: 0rem;
   display: inline-block;
   text-align: center;
 }
@@ -168,16 +167,16 @@ h2 {
 .gallery ul {
   list-style: none;
   display: inline-block;
-  padding-left: 0px;
+  padding-left: 0rem;
 }
 
 .gallery li {
   display: inline-block;
-  margin: 5px;
+  margin: 0.33rem;
 }
 
 .gallery-image {
-  height: 30em;
+  height: 30rem;
   width: auto;
   display: inline-block;
   border: 1px solid rgb(185,185,185);
@@ -194,7 +193,7 @@ h2 {
 
 .sal-image {
   width: auto;
-  height: 25em;
+  height: 25rem;
   display: inline-block;
   border: 1px solid rgb(185,185,185);
   cursor: pointer;
@@ -203,27 +202,27 @@ h2 {
 /*  The footer section.  Small but mighty, the only section anywhere on any page that includes contact info. */
 
 .footer {
-  border-top: 2px solid rgb(220,220,220);
-  padding: 10px;
+  border-top: 0.25rem solid rgb(220,220,220);
+  padding: 0.66rem;
 }
 
 .footer p {
   float: left;
-  margin-left: 10px;
+  margin-left: 0.66rem;
 }
 
 ul.contact {
   display: inline-block;
   float: right;
   list-style: none;
-  height: 30px;
+  height: 2rem;
 }
 
 .contact li {
   display: inline-block;
   list-style: none;
-  height: 30px;
-  line-height: 0px;
+  height: 2rem;
+  line-height: 0rem;
 }
 
 .contact a {
@@ -231,7 +230,7 @@ ul.contact {
 }
 
 .contact img {
-  height: 30px;
+  height: 2rem;
 }
 
 .lightbox {
@@ -239,26 +238,26 @@ ul.contact {
   position: fixed;
   width: 100%;
   height: 100%;
-  top: 0px;
-  left: 0px;
+  top: 0rem;
+  left: 0rem;
   display: none;
   text-align: center;
   cursor: pointer;
 }
 
 .lightbox-heading {
-  height: 90px;
-  border-bottom: 2px solid rgba(200,200,200,0.9)
+  height: 6rem;
+  border-bottom: 0.25rem solid rgba(200,200,200,0.9)
 }
 
 .lightbox-heading p {
   float: right;
-  margin: 0px;
-  width:40px;
-  padding: 20px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 40px;
+  margin: 0rem;
+  width: 2.5rem;
+  padding: 1rem;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 2.5rem;
   color: rgba(200,200,200,0.8);
   text-decoration: none;
 }
@@ -272,18 +271,18 @@ ul.contact {
 }
 
 
-@media only screen and (max-width: 600px) {  
+@media only screen and (max-width: 37.5rem) {  
   .header {
     text-align: center;
   }
   
   .header ul {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 35.6rem) {
   
   .gallery-image {
     width: 90%;
@@ -296,19 +295,19 @@ ul.contact {
   }
 }
 
-@media only screen and (max-width: 552px) {
+@media only screen and (max-width: 34.4rem) {
   .intro {
-    margin-top: 190px;
+    margin-top: 11.9rem;
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 26.9rem) {
   .content img {
     float: none;
   }
   
   .content div {
-    margin-left: 0px;
+    margin-left: 0rem;
   }
   
   .content {
@@ -316,8 +315,8 @@ ul.contact {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 25rem) {
   .gallery {
-    padding: 0px;
+    padding: 0rem;
   }
 }
