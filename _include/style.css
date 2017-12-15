@@ -7,7 +7,7 @@ body {
 
 .translate {
   position: fixed;
-  margin-left: -2.5em;
+  margin-left: -2em;
   left: 100%;
   top: 0em;
   width: 2em;
@@ -245,27 +245,11 @@ ul.contact {
   cursor: pointer;
 }
 
-.lightbox-heading {
-  height: 6em;
-  border-bottom: 0.25em solid rgba(200,200,200,0.9)
-}
-
-.lightbox-heading p {
-  float: right;
-  margin: 0em;
-  width: 2.5em;
-  padding: 1em;
-  height: 3em;
-  line-height: 3em;
-  font-size: 2.5em;
-  color: rgba(200,200,200,0.8);
-  text-decoration: none;
-}
-
 .lightbox img {
+  position: static;
   height: auto;
   width: auto;
-  max-height: 85%;
+  max-height: 100%;
   max-width: 100%;
   display: inline-block;
 }
