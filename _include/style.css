@@ -137,7 +137,7 @@ h2 {
   line-height: 2em;
   text-align: center;
   background-color: rgb(185,185,185);
-  border: 0.25em solid rgb(155,155,155);
+  border: 0.05em solid rgb(155,155,155);
   border-radius: 0.33em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -149,7 +149,7 @@ h2 {
 
 .contact-btn:hover {
   background-color: rgb(155,155,155);
-  border: 0.25em solid rgb(185,185,185);
+  border: 0.05em solid rgb(185,185,185);
 }
 
 /* Gallery section.  The majority of most pages is galleries so this is important */
@@ -320,3 +320,5 @@ ul.contact {
     padding: 0em;
   }
 }
+
+@
