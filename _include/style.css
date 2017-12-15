@@ -7,7 +7,7 @@ body {
 
 .translate {
   position: fixed;
-  margin-left: -2em;
+  margin-left: -2.5em;
   left: 100%;
   top: 0em;
   width: 2em;
@@ -246,7 +246,6 @@ ul.contact {
 }
 
 .lightbox img {
-  position: static;
   height: auto;
   width: auto;
   max-height: 100%;
