@@ -84,6 +84,26 @@ function initLang() {
   }
 }
 
+function isLang(thisId) {
+  alert('isLang called by ' + thisId);
+  var lang = localStorage.getItem('languageShaelynch.com');
+  var thisItem = document.getElementById(thisId);
+  if (lang === 'fr') {
+    if (thisItem.getAttribute('lang') === 'fr') {
+      thisItem.style.display = 'inline-block';
+    } else {
+      thisItem.style.display = 'none';
+    }
+  } else {
+    if (thisItem.getAttribute('lang') === 'fr') {
+      thisItem.style.display = 'none';
+    } else {
+      thisItem.style.display = 'inline-block';
+    }
+  }
+}
+        
+
 function init() {
   initLang();
   initListeners();
