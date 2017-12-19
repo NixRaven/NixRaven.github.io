@@ -50,6 +50,9 @@ body {
   position: fixed;
   height: 100%;
   background-image: linear-gradient(to bottom, rgba(0,0,70,0.8), black 50%), url('../media/computer-keyboard.jpg');
+  background-image: -webkit-linear-gradient(top, rgba(0,0,70,0.8), black 50%), url('../media/computer-keyboard.jpg');
+  background-image: -moz-linear-gradient(top, rgba(0,0,70,0.8), black 50%), url('../media/computer-keyboard.jpg');
+  background-image: -o-linear-gradient(top, rgba(0,0,70,0.8), black 50%), url('../media/computer-keyboard.jpg');
   background-size: cover;
   margin: 0px;
   top: 50px;
@@ -98,6 +101,9 @@ body {
   border: 1px solid gray;
   color: white;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), black);
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.0), black);
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.0), black);
+  background-image: -o-linear-gradient(top, rgba(0,0,0,0.0), black);
   background-size: cover;
 }
 
@@ -116,18 +122,30 @@ body {
 
 .portfolio-section-artist {
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), black),url('../media/portfolioPageEn.jpg');
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.0), black),url('../media/portfolioPageEn.jpg');
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.0), black),url('../media/portfolioPageEn.jpg');
+  background-image: -o-linear-gradient(top, rgba(0,0,0,0.0), black),url('../media/portfolioPageEn.jpg');
 }
 
 .portfolio-section-artist:hover {
   background-image: linear-gradient(to bottom, rgba(0,0,50,0.5), black),url('../media/portfolioPageEn.jpg');
+  background-image: -webkit-linear-gradient(top, rgba(0,0,50,0.5), black),url('../media/portfolioPageEn.jpg');
+  background-image: -moz-linear-gradient(top, rgba(0,0,50,0.5), black),url('../media/portfolioPageEn.jpg');
+  background-image: -o-linear-gradient(top, rgba(0,0,50,0.5), black),url('../media/portfolioPageEn.jpg');
 }
 
 .portfolio-section-turing {
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), black),url('../media/turingPage.jpg');
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.0), black),url('../media/turingPage.jpg');
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.0), black),url('../media/turingPage.jpg');
+  background-image: -o-linear-gradient(top, rgba(0,0,0,0.0), black),url('../media/turingPage.jpg');
 }
 
 .portfolio-section-turing:hover {
   background-image: linear-gradient(to bottom, rgba(0,0,50,0.5), black),url('../media/turingPage.jpg');
+  background-image: -webkit-linear-gradient(top, rgba(0,0,50,0.5), black),url('../media/turingPage.jpg');
+  background-image: -moz-linear-gradient(top, rgba(0,0,50,0.5), black),url('../media/turingPage.jpg');
+  background-image: -o-linear-gradient(top, rgba(0,0,50,0.5), black),url('../media/turingPage.jpg');
 }
 
 /** footer styles **/
