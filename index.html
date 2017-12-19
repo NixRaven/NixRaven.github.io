@@ -1,91 +1,55 @@
 <!DOCTYPE html5>
 
-
-<!-- Main Portfolio page -->
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Shae Lynch</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Shae Lynch | Digital Concept Art Portfolio">
-    <meta name="og:title" content="Shae Lynch | Digital Concept Art Portfolio">
-    <meta name="og:description" content="Digital illustrator and colorist.">
-    <meta name="og:image" content="_media/alchemicSpider2.jpg">
-    <meta name="og:url" content="nixraven.github.io">
-    <meta name="twitter:title" content="Shae Lynch | Digital Concept Art Portfolio">
-    <meta name="twitter:description" content="Digital illustrator and colorist.">
-    <meta name="twitter:image" content="_media/alchemicSpider2.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="stylesheet" type="text/css" href="_include/style.css">
-    <script src="_scripts/translate.js"></script>
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>NixRaven Web Services</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <script>
-    var englishText = ['galleryEn','coloristEn','aboutEn','introTitleEn','btnToFr'];
-    var frenchText = ['galleryFr','coloristFr','aboutFr','introTitleFr','btnToEn'];
-    var imgList = ['twoHeadPair','ferali','alchemist','spellCaster','pegasus','ogre'];
-    var lightboxImg = 'lightboxImage';
-    var lightboxElem = 'lightbox';
-    var gallery = true;
-    var content = false;
-       
-    window.onload = function() {init();};
+    function contact() {
+      alert('Contact me:\n\nShae Lynch\nshaeolynch@gmail.com\n1-208-907-1272');
+    }
+    
+    window.onload = function() {
+      if (document.getElementById('contactLink').addEventListener) {
+        document.getElementById('contactLink').addEventListener('click',contact);
+      } else if (document.getElementById('contactLink').attachEvent) {
+        document.getElementById('contactLink').attachEvent('onclick',contact);
+      }
+    };
     </script>
   </head>
   <body>
-    <div class="header">
-      <div id="btnToFr" class="translate" lang='en'><p>fr</p></div>
-      <div id="btnToEn" class="translate" lang='fr' display='none'><p>en</p></div>
-      <ul>
-        <li><div class="icon">
-          <h1>Shae Lynch</h1>
-        </div></li>
-        <li>
-          <ul class="navbar">
-            <li id='galleryEn' lang='en'><a href="#">Gallery</a></li>
-            <li id='galleryFr' lang='fr' display='none'><a href="#">Galerie</a></li>
-            <li id='coloristEn' lang='en'><a href="Colorist/">Colorist</a></li>
-            <li id='coloristFr' lang='fr' display='none'><a href="Colorist/">Coloriste</a></li>
-            <li id='aboutEn' lang='en'><a href="About/">About</a></li>
-            <li id='aboutFr' lang='fr' display='none'><a href="About/">À propos</a></li>
-          </ul>
-        </li>
-      </ul>
+    <div id="banner" class="banner">
     </div>
-    <div class="intro">
-      <h2 id='introTitleEn' lang='en'>Digital Concept Art Portfolio</h2>
-      <h2 id='introTitleFr' lang='fr' display='none'>Galerie des déssins numeriques</h2>
+    <div class="content">
+      <h1 class="heading">Hi, I'm Shae</h1>
+      <p>I’m a web developer currently focusing on front end development with Javascript ES6, CSS3 and HTML5.  My design ethos is built around clarity and accessibility.</p>
+      <p>When it comes to design, I believe your content should come first.  The web site design should support that but never get in front of it.  I prefer simple layouts and simpler visual effects that let your message take center stage.  This kind of design keeps the web page easy to navigate and quick to load.</p>
+      <p>I try to make the message as accessible as possible:  from keeping all of my sites optimized for social media platforms to SEO optimization to bilingual design.</p>
+      <p>I build websites mostly with HTML5, CSS3 and Javascript ES6 but I’m always learning and always excited to implement new knowledge.  If there are any specific technologies you’d like to see added here, please let me know!  I always love new avenues of research.</p>
     </div>
-    <div class="gallery">
-      <ul>
-        <li>
-            <img id="twoHeadPair" class="gallery-image" src="_media/TwoHeadPairWeb.jpg" alt="Digital painting of a two-headed tiger stands on a rock in the jungle">
-        </li>
-        <li>
-            <img id="ferali" class="gallery-image" src="_media/FeraliWeb.jpg" alt="Digital painting of a Ferali (a fantasy creature from 'Shadows Edge' by Brent Weeks">
-        </li>
-        <li>
-            <img id="alchemist" class="gallery-image" src="_media/AlchemicSpider2.jpg" alt="Digital painting of a spider in a crypt">
-        </li>
-        <li>
-            <img id="spellCaster" class="gallery-image" src="_media/SpellCastingWeb.jpg" alt="Digital painting of a woman casting a spell">
-        </li>
-        <li>
-            <img id="pegasus" class="gallery-image" src="_media/PegasusWeb.jpg" alt="Digital painting of a pegasus running through a glade">
-        </li>
-        <li>
-            <img id="ogre" class="gallery-image" src="_media/OgreWeb.jpg" alt="Digital painting of an ogre">
-        </li>
-      </ul>
+    <div id="portfolio" class="portfolio">
+      <a href="ArtistShaeLynch/"><div class="portfolio-section-artist">
+        <h2>Artist Website</h2>
+        <p>Website development and bilingual implementation</p>
+      </div></a>
+      <a href="Turing"><div class="portfolio-section-turing">
+        <h2>Turing Helpdesk</h2>
+        <p>Website development and chat-bot development and implementation</p>
+      </div></a>
     </div>
     <div class="footer">
-      <p>&copy; shaelynch.com</p>
-      <ul class="contact">
-        <li><p class="contact"><a href="mailto: shaeolynch@gmail.com">shaeolynch@gmail.com</a></p></li>
-        <li><a href="https://shaechimera.deviantart.com"><img src="_media/graphics/Deviantart.svg"></a></li>
-        <li><a href="https://www.instagram.com/shaeisraelchimera"><img src="_media/graphics/Instagram.svg"></a></li>
-      </ul>
+      <p class="copywright">&copy;2017</p>
+      <p class="contact"><a href="mailto:shaeolynch@gmail.com">shaeolynch@gmail.com</a></p>
     </div>
-    <div id="lightbox" class="lightbox">
-      <img id="lightboxImage">
+    <div class="header">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#">welcome</a></li>
+        <li><a class="nav-link" href="#portfolio">portfolio</a></li>
+        <li><p id="contactLink" class="nav-link">contact</p></li>
+      </ul>
     </div>
   </body>
 </html>

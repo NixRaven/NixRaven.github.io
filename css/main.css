@@ -1,0 +1,186 @@
+body {
+  font-family: arial;
+  margin: 0px;
+}
+
+/** header styles **/
+
+.header {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  top: 0px;
+  border-bottom: 2px solid gray;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-list {
+  float: right;
+  list-style: none;
+  display: inline-block;
+  height: 50px;
+  margin: 0px;
+  padding-right: 20px;
+}
+
+.nav-list li {
+  display: inline-block;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 50px;
+  margin: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+/** banner styles **/
+
+.banner {
+  position: fixed;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(0,0,70,0.8), black 50%), url('../media/computer-keyboard.jpg');
+  background-size: cover;
+  margin: 0px;
+  top: 50px;
+  width: 100%;
+}
+
+/** content styles **/
+
+.heading {
+  color: white;
+  position: absolute;
+  top: -150px;
+  padding: 10px;
+  font-size: 70px;
+  width: 87%;
+}
+
+.content {
+  position: relative;
+  top: 450px;
+  margin: 0px;
+  padding: 30px;
+  background: white;
+}
+
+/** portfolio styles **/
+
+.portfolio {
+  width: 100%;
+  text-align: center;
+  background-color: #e9e9f5;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  position: relative;
+  top: 430px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.portfolio-section-artist, .portfolio-section-turing {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 8px;
+  border: 1px solid gray;
+  color: white;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), black);
+  background-size: cover;
+}
+
+.portfolio-section-artist h2, .portfolio-section-turing h2 {
+  position: absolute;
+  top: 180px;
+  width: 300px;
+  text-decoration: underline;
+}
+
+.portfolio-section-artist p, .portfolio-section-turing p {
+  position: absolute;
+  top: 220px;
+  width: 290px;
+}
+
+.portfolio-section-artist {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), black),url('../media/portfolioPageEn.jpg');
+}
+
+.portfolio-section-artist:hover {
+  background-image: linear-gradient(to bottom, rgba(0,0,50,0.5), black),url('../media/portfolioPageEn.jpg');
+}
+
+.portfolio-section-turing {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), black),url('../media/turingPage.jpg');
+}
+
+.portfolio-section-turing:hover {
+  background-image: linear-gradient(to bottom, rgba(0,0,50,0.5), black),url('../media/turingPage.jpg');
+}
+
+/** footer styles **/
+
+.footer {
+  width: 100%;
+  position: relative;
+  top: 430px;
+  padding-bottom: 30px;
+}
+
+.copywright {
+  color: gray;
+  float: left;
+  margin: 10px;
+}
+
+.contact {
+  float: right;
+  margin: 10px;
+}
+
+.contact a {
+  color: gray;
+}
+
+@media only screen and (max-width: 400px) {
+  .heading {
+    top: -120px;
+    font-size: 50px;
+    line-height: 40px;
+  }
+  
+  .content {
+    top: 350px;
+  }
+  
+  .portfolio {
+    top: 330px;
+  }
+  
+  .portfolio-section-artist, .portfolio-section-turing {
+    height: 250px;
+    width: 250px;
+  }
+  
+  .portfolio-section-artist h2, .portfolio-section-turing h2 {
+    top: 120px;
+    width: 250px;
+  }
+  
+  .portfolio-section-artist p, .portfolio-section-turing p {
+    top: 160px;
+    width: 240px;
+  }
+}
