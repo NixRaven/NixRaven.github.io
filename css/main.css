@@ -90,6 +90,10 @@ body {
   top: 430px;
   padding-top: 15px;
   padding-bottom: 15px;
+  background-image: linear-gradient(to bottom, #e9e9f5, #b9b9c2);
+  background-image: -webkit-linear-gradient(top, #e9e9f5, #b9b9c2);
+  background-image: -moz-linear-gradient(top, #e9e9f5, #b9b9c2);
+  background-image: -o-linear-gradient(top, #e9e9f5, #b9b9c2);
 }
 
 .portfolio-section-artist, .portfolio-section-turing {
@@ -128,10 +132,10 @@ body {
 }
 
 .portfolio-section-artist:hover {
-  background-image: linear-gradient(to bottom, rgba(0,0,50,0.5), black),url('../media/portfolioPageEn.jpg');
-  background-image: -webkit-linear-gradient(top, rgba(0,0,50,0.5), black),url('../media/portfolioPageEn.jpg');
-  background-image: -moz-linear-gradient(top, rgba(0,0,50,0.5), black),url('../media/portfolioPageEn.jpg');
-  background-image: -o-linear-gradient(top, rgba(0,0,50,0.5), black),url('../media/portfolioPageEn.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,25,0.5), black),url('../media/portfolioPageEn.jpg');
+  background-image: -webkit-linear-gradient(top, rgba(0,0,25,0.5), black),url('../media/portfolioPageEn.jpg');
+  background-image: -moz-linear-gradient(top, rgba(0,0,25,0.5), black),url('../media/portfolioPageEn.jpg');
+  background-image: -o-linear-gradient(top, rgba(0,0,25,0.5), black),url('../media/portfolioPageEn.jpg');
 }
 
 .portfolio-section-turing {
@@ -142,10 +146,10 @@ body {
 }
 
 .portfolio-section-turing:hover {
-  background-image: linear-gradient(to bottom, rgba(0,0,50,0.5), black),url('../media/turingPage.jpg');
-  background-image: -webkit-linear-gradient(top, rgba(0,0,50,0.5), black),url('../media/turingPage.jpg');
-  background-image: -moz-linear-gradient(top, rgba(0,0,50,0.5), black),url('../media/turingPage.jpg');
-  background-image: -o-linear-gradient(top, rgba(0,0,50,0.5), black),url('../media/turingPage.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,25,0.5), black),url('../media/turingPage.jpg');
+  background-image: -webkit-linear-gradient(top, rgba(0,0,25,0.5), black),url('../media/turingPage.jpg');
+  background-image: -moz-linear-gradient(top, rgba(0,0,25,0.5), black),url('../media/turingPage.jpg');
+  background-image: -o-linear-gradient(top, rgba(0,0,25,0.5), black),url('../media/turingPage.jpg');
 }
 
 /** footer styles **/
