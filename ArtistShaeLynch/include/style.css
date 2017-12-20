@@ -100,8 +100,7 @@ ul.navbar {
 
 h2 {
   font-size: 1em;
-  margin-top: 1.33em;
-  margin-bottom: 1.33em;
+  line-height: 3.5em;
 }
 
 /* Content section.  Only used for text based pages.  Most of this site is galleries so this is only used for the about page */

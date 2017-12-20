@@ -19,9 +19,11 @@
     <link rel="stylesheet" type="text/css" href="include/style.css">
     <script src="scripts/translate.js"></script>
     <script>
-    var englishText = ['galleryEn','coloristEn','aboutEn','introTitleEn','btnToFr'];
-    var frenchText = ['galleryFr','coloristFr','aboutFr','introTitleFr','btnToEn'];
+    var textElmnts = ['galleryEn','coloristEn','aboutEn','introTitleEn','btnTranslate'];
+    var englishText = ['Gallery','Colorist','About','Digital Concept Art Portfolio','fr'];
+    var frenchText = ['Galerie','Coloriste','À propos','Galerie des déssins numeriques','en'];
     var imgList = ['twoHeadPair','ferali','alchemist','spellCaster','pegasus','ogre'];
+    var imgLinks = ['media/TwoHeadPairWeb.jpg','media/FeraliWeb.jpg','media/AlchemicSpider2.jpg','media/SpellCastingWeb.jpg','media/PegasusWeb.jpg','media/OgreWeb.jpg'];
     var lightboxImg = 'lightboxImage';
     var lightboxElem = 'lightbox';
     var gallery = true;
@@ -32,29 +34,24 @@
   </head>
   <body>
     <div class="header">
-      <div id="btnToFr" class="translate" lang='en'><p>fr</p></div>
-      <div id="btnToEn" class="translate" lang='fr' display='none'><p>en</p></div>
+      <div id="btnTranslate" class="translate" lang='en'><p>fr</p></div>
       <ul>
         <li><div class="icon">
           <h1>Shae Lynch</h1>
         </div></li>
         <li>
           <ul class="navbar">
-            <li id='galleryEn' lang='en'><a href="#">Gallery</a></li>
-            <li id='galleryFr' lang='fr' display='none'><a href="#">Galerie</a></li>
-            <li id='coloristEn' lang='en'><a href="Colorist/">Colorist</a></li>
-            <li id='coloristFr' lang='fr' display='none'><a href="Colorist/">Coloriste</a></li>
-            <li id='aboutEn' lang='en'><a href="About/">About</a></li>
-            <li id='aboutFr' lang='fr' display='none'><a href="About/">À propos</a></li>
+            <li><a id='galleryEn' lang='en' href="#">Gallery</a></li>
+            <li><a id='coloristEn' lang='en' href="Colorist/">Colorist</a></li>
+            <li><a id='aboutEn' lang='en' href="About/">About</a></li>
           </ul>
         </li>
       </ul>
     </div>
     <div class="intro">
       <h2 id='introTitleEn' lang='en'>Digital Concept Art Portfolio</h2>
-      <h2 id='introTitleFr' lang='fr' display='none'>Galerie des déssins numeriques</h2>
     </div>
-    <div class="gallery">
+    <div id="galleryOne" class="gallery">
       <ul>
         <li>
             <img id="twoHeadPair" class="gallery-image" src="media/TwoHeadPairWeb.jpg" alt="Digital painting of a two-headed tiger stands on a rock in the jungle">
