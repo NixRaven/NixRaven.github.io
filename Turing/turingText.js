@@ -73,7 +73,7 @@ function checkKeywords(input) {
 }
 
 function ifAllElseFails() {
-  var responses = ["Ok, thats a little vague. Can you give me some more information?","Ok, so what is your issue exactly?","Ok, so what exactly is the priblem?","Sorry, I don't think I understand the problem","Ok, can you explain with a bit more detail?"];
+  var responses = ["Ok, thats a little vague. Can you give me some more information?","Ok, so what is your issue exactly?","Ok, so what exactly is the problem?","Sorry, I don't think I understand the problem","Ok, can you explain with a bit more detail?"];
 
   answer = responses[Math.floor(Math.random() * responses.length)];
   return true;
