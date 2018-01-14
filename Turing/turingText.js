@@ -52,11 +52,12 @@ function checkQuestion(input) {
     return true;
   }
 }
+
 function checkKeywords(input) {
   var keywords = [" computer"," Computer"," Phone"," phone"," Cellphone"," cellphone"," WiFi"," WIFI"," WI-FI"," wifi"," Wifi"," wi-fi"," internet"," Internet"," website"," Website"," Software"," software"," program"," Program"," app "," App "," ap "," aps "," apps ", " Apps "," app."," app,"," app?"," ap."," ap,"," ap?"," apps."," apps,"," apps?"," application"," Application", " aplication"," Aplication"," applications"," Applications"," aplications"," Aplications"," screen"," Screen "," monitor "," Monitor"," Keyboard"," keyboard"," mouse"," Mouse"];
   var responses = [["Ok, tell me more about your",""],["So what seems to be the problem with your",""],["Hm, what year was the"," made?"],["That sounds like a problem. Have you tried turning off or disconnecting your"," and then reconnecting it?"]["Have you tried turning off or disconnecting your"," and reconnecting it."],["Have you disconected and reconnected your ",""]];
   var bool = true;
-  var indexForKeywords = Math.ceil(Math.random() * responses.length) - 1;
+  var indexForKeywords = Math.floor(Math.random() * responses.length);
   
   keywords.forEach(function(word) {
     if (input.includes(word)) {

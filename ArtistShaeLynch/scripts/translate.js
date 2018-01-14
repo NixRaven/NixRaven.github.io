@@ -14,7 +14,7 @@ function translateToContent(itemIds,toContent,lang) {
 
 function setLightboxImg(imgElem, lightboxImg, lightboxId) {
   document.getElementById(lightboxImg).src = document.getElementById(imgElem).src;
-  document.getElementById(lightboxId).style.display = 'block';
+  document.getElementById(lightboxId).style.display = 'grid';
 }
     
 function initListeners() {
